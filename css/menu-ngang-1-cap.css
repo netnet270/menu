@@ -1,0 +1,38 @@
+body{
+	font-family: 'Roboto Condensed';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+	
+}
+
+#wrapper{
+	background: #fff;
+}
+
+#header{
+	background: #2bbc9b;
+	text-transform: uppercase;
+}
+
+a#logo{
+	display: block;
+	padding: 10px 0px;
+}
+
+ul#main-menu li {
+	float: left;
+}
+
+ul#main-menu li a{
+	padding: 32px 28px;
+	display: block;
+	color: #fff;
+}
+
+#main-menu li a.active, ul#main-menu li:hover a{
+	background: #24a085;
+	transition: all 0.5s;
+}
+
+
